@@ -20,7 +20,7 @@ console.log('#8. JavaScript homework example file')
 function createDomElement(tagName, textContent, container) {
 
 const newElement = document.createElement(tagName);
-newElement.textContent = textContent;
+newElement.innerText = textContent;
 container.appendChild(newElement);
 
 
